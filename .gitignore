@@ -1,0 +1,20 @@
+# Ignore compressed FASTQ files
+*.fastq.gz
+*.fq.gz
+
+# Ignore trimmed/compressed files
+analysis_results/trimmed/*.gz
+
+# Ignore alignment files
+*.bam
+*.bai
+
+
+#
+
+# Ignore log and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
