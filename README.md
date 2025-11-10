@@ -13,4 +13,4 @@ Steps of the project 1. Quality control 2. Trimming  3. Alignment to the r
 snakemake -j 4
 2. Use this code to launch the dashboard for visualization of the results:
 streamlit run amr_dashboard.py
-3.Then upload the engineered matrix you get from the previous code (snakemake code) to the dashboard,  it should be: "analysis_results/scaled_count_selected_samples.csv"
+3. Then upload the engineered matrix you get from the previous code (snakemake code) to the dashboard,  it should be: "analysis_results/scaled_count_selected_samples.csv"
