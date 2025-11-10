@@ -1,6 +1,13 @@
 # AMR
-Steps of the project 1. Quality control 2. Trimming  3. Alignment to the reference genome  4. Feature counting
-5. Data Engineering   6. Prediction modeling using a multi-output random forest classifier  7. Automating the data extraction process and data engineering 8. Launching the dashboard for interpretable visualization of the predictions
+Steps of the project 
+1. Quality control
+2. Trimming
+3. Alignment to the reference genome
+4. Feature counting
+5. Data Engineering
+6. Prediction modeling using a multi-output random forest classifier
+7. Automating the data extraction process and data engineering
+8. Launching the dashboard for interpretable visualization of the predictions
 <img width="1854" height="1686" alt=" directories, 33 fites" src="https://github.com/user-attachments/assets/85a59b35-ee88-424b-b424-3cd2931952ce" />
 
 # Assumptions for reproducible work:
