@@ -8,8 +8,7 @@ Steps of the project 1. Quality control 2. Trimming  3. Alignment to the r
 2. The bash code will install the missing packages; otherwise, you could download it using brew install fastqc fastp bwa samtools brewsci/bio/subread && conda install -y -c conda-forge -c bioconda pandas numpy scikit-learn joblib streamlit plotly snakemake papermill matplotlib seaborn llvmlite numba
 3. Data: you must have paired-end fastq files, and you must have the reference files; REF="reference/GCF_000006945.2_ASM694v2_genomic.fna”, GTF="reference/GCF_000006945.2_ASM694v2_genomic.gff"  
 ￼
-
-Steps for reproducible work:
+# Steps for reproducible work:
 1. Run the snakemake file to get the matrix ready for AI prediction using:
 snakemake -j 4
 2. Use this code to launch the dashboard for visualization of the results:
